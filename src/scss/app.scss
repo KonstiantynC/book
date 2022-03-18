@@ -1,0 +1,53 @@
+@import "app-form";
+@import "variables";
+@import "mixins";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Jura', sans-serif;
+}
+
+body,
+input,
+select,
+button,
+textarea {
+  letter-spacing: 0.005rem;
+}
+
+textarea,
+button,
+select,
+input,
+body,
+span,
+p {
+  font-size: 1.4rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: $app-bg-color;
+}
+
+#app {
+  flex: 1;
+  min-height: 100vh;
+  max-width: 1440px;
+}
+
+.app__button-raised {
+  @include button-raised();
+
+  &:not([disabled]):not(:active):hover,
+  &:not([disabled]):not(:active):focus {
+    background-color: $button-raised-hover;
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "error-messages": {
+    "something-error": "Произошла ошибка. Повторите позже"
+  },
+  "fields": {
+    "file-field": {
+      "empty-placeholder-lbl": "Выберете обложку"
+    },
+    "select-field": {
+      "empty-placeholder-lbl": "Выберете"
+    }
+  },
+  "validation": {
+    "required": "Заполните это поле",
+    "email": "Неверный e-mail",
+    "confirmed": "Пароли не совпадают",
+    "min": "Пароль должен быть не меньше 8 символов"
+  },
+  "sign-in": {
+    "title": "Авторизация"
+  },
+  "footer": {
+    "copyright": "©{currentYear} Book Project. All rights Reserved."
+  },
+  "sign-in-form": {
+    "login-lbl": "Ваш логин:",
+    "password-lbl": "Ваш пароль:",
+    "other-device": "Чужой компьютер",
+    "forgot-password": "Забыли пароль?",
+    "login-btn": "Войти на сайт",
+    "register-btn": "Пройти регистрацию",
+    "or": "Либо",
+    "empty-form": "Не все поля заполнены",
+    "wrong-credentials": "Введен неверный логин или пароль"
+  },
+  "sign-up" : {
+    "title" : "Регистрация"
+  },
+  "sign-up-form": {
+    "login-lbl": "Ваш логин:",
+    "email-lbl": "Ваш email:",
+    "password-lbl": "Ваш пароль:",
+    "confirm-password": "Подтвердите пароль:",
+    "register": "Зарегистрироваться",
+    "have-account": "Уже есть аккаунт?",
+    "sign-in" : "Войти",
+    "empty-form": "Не все поля заполнены",
+    "not-match-passwords": "Пароли не совпадают",
+    "user-exists": "Пользователь с таким email или логином уже существует"
+  },
+  "recovery-password" : {
+    "title" : "Восстановление пароля"
+  },
+  "recovery-password-form" : {
+    "email-lbl": "Ваш email:",
+    "send-password": "Отправить новый пароль",
+    "confirm": "На указанный email придет новый пароль из 8 символов",
+    "return-to-auth": "Вернуться назад"
+  },
+  "nav-bar" : {
+    "ready-books": "Готовые книги",
+    "draft": "Черновики",
+    "playlist": "Плейлист",
+    "setting": "Настройки"
+  },
+  "draft-books": {
+    "title": "Все книги:",
+    "book-name": "Метро 2033",
+    "types": {
+      "reading": {
+        "title": "Читать"
+      },
+      "edit": {
+        "title": "Редактировать"
+      },
+      "moderation": {
+        "title": "Отправить на модерацию"
+      },
+      "upload": {
+        "title": "Скачать"
+      },
+      "remove": {
+        "title": "Удалить"
+      }
+    },
+    "load-failed": "Не удалось загрузить данные",
+    "empty-list": "У еще вас нет книг"
+  },
+  "books-editor": {
+    "file": "Файл",
+    "successful-load": "успешно загружен и добавлен в редактор!",
+    "title-book-lbl": "Название книги",
+    "title-book-placeholder": "Введите название книги:",
+    "description-book-lbl": "Описание книги",
+    "description-book-placeholder": "Введите описание книги:",
+    "genre-book-lbl": "Жанр",
+    "settings-lbl": "Настройки",
+    "load-new-file-placeholder": "Загрузить новый файл",
+    "tool-panel-lbl": "Панель инструментов",
+    "editor-lbl": "Редактор",
+    "complete-btn": "Завершить",
+    "save-btn": "Сохранить",
+    "remove-btn": "Удалить",
+    "book-exists": "Книга с таким названием уже существует"
+  },
+  "books": {
+    "load-book-lbl": "Загрузить файл",
+    "create-book-lbl": "Создать новую книгу",
+    "load-book-hint": "Файл можно загрузить в формате fb2, epub, txt, rtf, pdf, html кликом по кнопке или перетащить с рабочего стола компьютера файл, в текстовое поле.",
+    "reading": "Читать",
+    "edit": "Редактировать",
+    "moderation": "Отправить на модерацию",
+    "upload":"Скачать",
+    "remove": "Удалить"
+  },
+  "pending-books": {
+    "sending-moderation": "Отправлены на модерацию:",
+    "rejected-by-moderation": "Отклонены модерацией:",
+    "pending-action": "Ожидают действий:",
+    "published-books": "Опубликованные книги:"
+  }
+}

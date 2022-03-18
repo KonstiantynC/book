@@ -1,0 +1,10 @@
+$margin-row-to-row: 2.4rem;
+
+.app__form-row {
+  width: 100%;
+
+  &:not(:first-child) {
+    margin-top: $margin-row-to-row;
+  }
+}
+.app__form-action {}

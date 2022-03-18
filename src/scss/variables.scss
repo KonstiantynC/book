@@ -1,0 +1,63 @@
+$app-shadow: 0 0 1rem rgba(0, 0, 0, 0.08);
+$app-logo-color: rgba(0, 0, 0, 0.5);
+$app-bg-color: #F8F8F8;
+
+// input-field
+$input-field-shadow-color: #E5E5E5;
+$input-field-placeholder-color: #8A8A8A;
+$input-field-error-color: #EC5656;
+
+// file-field
+$file-field-placeholder-color: #C0C0C0;
+$file-field-error-color: #EC5656;
+
+// checkbox-field
+$checkbox-label-color: #000000;
+$checkbox-border-color: #000000;
+$checkbox-checked-color: #000000;
+$checkbox-border-focus-color: #444444;
+
+// button-raised
+$button-raised-bg-color: #FFFFFF;
+$button-raised-color: #000000;
+$button-raised-shadow-color: #E5E5E5;
+$button-raised-disabled: #CCCCCC;
+$button-raised-disabled-color: #F7F7F7;
+$button-raised-hover: #CCCCCC;
+
+// footer
+$footer-text-color: #8A8A8A;
+
+// sign-in-form
+$sign-in-form-tip-color: #8A8A8A;
+$sign-in-form-tip-auth-color: #8A8A8A;
+$sign-in-form-forgot-pwd-color: #DE1818;
+$sign-in-form-failed-msg: #DE1818;
+
+// sign-up-form
+$sign-up-form-have-account-color: #8A8A8A;
+$sign-up-form-forgot-pwd-color: #DE1818;
+$sign-up-form-failed-msg: #DE1818;
+
+// recovery-password-form
+$recovery-password-form-confirm-color: #AEAEAE; 
+$recovery-password-form-return-to-auth-color: #DE1818;
+
+//nav-bar
+$nav-bar-link-color: #000000;
+
+//ready-books
+$ready-books-color: #000000; 
+$ready-books-link-color: #FFFFFF;
+$book-item-form-actions-bg-color: rgba(51, 51, 51, 0.97);
+$book-item-form-link-shadow-clr: rgba(0, 0, 0, 0.08);
+$book-item-form-link-hover-clr: #CCCCCC;
+
+// books-editor
+$books-editor-tool-bg-color: #FFFFFF;
+
+// books
+$books-action-hover-border-color: #CCCCCC;
+$books-action-bg-color: #FFFFFF;
+$books-action-color: #000000;
+$books-load-hint-color: #C0C0C0;
